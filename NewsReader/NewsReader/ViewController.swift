@@ -56,6 +56,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                     self.titles.append(titleObject["rendered"].stringValue)
                 }
                 
+                self.tableView.reloadData()
+                
             }
         }
     }
