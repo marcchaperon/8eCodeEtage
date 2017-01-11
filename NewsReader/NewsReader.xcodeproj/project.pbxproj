@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300CE2F6679782AB33C7CFFA /* Pods_NewsReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B88206B5A1FE1A1EB0D6BF2 /* Pods_NewsReaderUITests.framework */; };
 		492C7E191E266D9300B903C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E181E266D9300B903C4 /* AppDelegate.swift */; };
 		492C7E1B1E266D9300B903C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E1A1E266D9300B903C4 /* ViewController.swift */; };
 		492C7E1E1E266D9300B903C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C7E1C1E266D9300B903C4 /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		492C7E261E266D9300B903C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492C7E241E266D9300B903C4 /* LaunchScreen.storyboard */; };
 		492C7E311E266D9300B903C4 /* NewsReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E301E266D9300B903C4 /* NewsReaderTests.swift */; };
 		492C7E3C1E266D9300B903C4 /* NewsReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E3B1E266D9300B903C4 /* NewsReaderUITests.swift */; };
+		492C7E4A1E26703A00B903C4 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E491E26703A00B903C4 /* MyTableViewCell.swift */; };
+		492C7E4B1E26703A00B903C4 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E491E26703A00B903C4 /* MyTableViewCell.swift */; };
+		492C7E4C1E26703A00B903C4 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C7E491E26703A00B903C4 /* MyTableViewCell.swift */; };
+		51443888556557796D793AA7 /* Pods_NewsReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D90A8767C70709FCF2C63D /* Pods_NewsReader.framework */; };
+		83393A504B2F417EB44A3B52 /* Pods_NewsReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2488B7ADAA4691793972F57 /* Pods_NewsReaderTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,16 @@
 		492C7E371E266D9300B903C4 /* NewsReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		492C7E3B1E266D9300B903C4 /* NewsReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsReaderUITests.swift; sourceTree = "<group>"; };
 		492C7E3D1E266D9300B903C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492C7E491E26703A00B903C4 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		5B450D6BF5E2A5C8F2C0F952 /* Pods-NewsReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsReaderUITests/Pods-NewsReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67F316E4D7C6BCB8F8D43386 /* Pods-NewsReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsReaderTests/Pods-NewsReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69D90A8767C70709FCF2C63D /* Pods_NewsReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76994EE4ED777EA0434C80EF /* Pods-NewsReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsReaderUITests/Pods-NewsReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B88206B5A1FE1A1EB0D6BF2 /* Pods_NewsReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9966CC9B9A0344AEAD2F79 /* Pods-NewsReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsReaderTests/Pods-NewsReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB0FC2D8CF83D599BF343A0D /* Pods-NewsReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsReader/Pods-NewsReader.release.xcconfig"; sourceTree = "<group>"; };
+		C2488B7ADAA4691793972F57 /* Pods_NewsReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C846D10E3D15852EAB1F7DFB /* Pods-NewsReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsReader/Pods-NewsReader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51443888556557796D793AA7 /* Pods_NewsReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83393A504B2F417EB44A3B52 /* Pods_NewsReaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300CE2F6679782AB33C7CFFA /* Pods_NewsReaderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				492C7E2F1E266D9300B903C4 /* NewsReaderTests */,
 				492C7E3A1E266D9300B903C4 /* NewsReaderUITests */,
 				492C7E161E266D9300B903C4 /* Products */,
+				713D397359BA69995295CFC2 /* Pods */,
+				7CD4A422F7A0EFE49BBA5A20 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +127,7 @@
 				492C7E241E266D9300B903C4 /* LaunchScreen.storyboard */,
 				492C7E271E266D9300B903C4 /* Info.plist */,
 				492C7E1F1E266D9300B903C4 /* NewsReader.xcdatamodeld */,
+				492C7E491E26703A00B903C4 /* MyTableViewCell.swift */,
 			);
 			path = NewsReader;
 			sourceTree = "<group>";
@@ -128,6 +150,29 @@
 			path = NewsReaderUITests;
 			sourceTree = "<group>";
 		};
+		713D397359BA69995295CFC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C846D10E3D15852EAB1F7DFB /* Pods-NewsReader.debug.xcconfig */,
+				BB0FC2D8CF83D599BF343A0D /* Pods-NewsReader.release.xcconfig */,
+				67F316E4D7C6BCB8F8D43386 /* Pods-NewsReaderTests.debug.xcconfig */,
+				AE9966CC9B9A0344AEAD2F79 /* Pods-NewsReaderTests.release.xcconfig */,
+				5B450D6BF5E2A5C8F2C0F952 /* Pods-NewsReaderUITests.debug.xcconfig */,
+				76994EE4ED777EA0434C80EF /* Pods-NewsReaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CD4A422F7A0EFE49BBA5A20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69D90A8767C70709FCF2C63D /* Pods_NewsReader.framework */,
+				C2488B7ADAA4691793972F57 /* Pods_NewsReaderTests.framework */,
+				7B88206B5A1FE1A1EB0D6BF2 /* Pods_NewsReaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 492C7E401E266D9300B903C4 /* Build configuration list for PBXNativeTarget "NewsReader" */;
 			buildPhases = (
+				07C19E0E947C8C586CEDBEF3 /* [CP] Check Pods Manifest.lock */,
 				492C7E111E266D9300B903C4 /* Sources */,
 				492C7E121E266D9300B903C4 /* Frameworks */,
 				492C7E131E266D9300B903C4 /* Resources */,
+				DABC9CA1B7B7FAB71A995B33 /* [CP] Embed Pods Frameworks */,
+				1BBE5400FF572A7B12EEE696 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 492C7E431E266D9300B903C4 /* Build configuration list for PBXNativeTarget "NewsReaderTests" */;
 			buildPhases = (
+				CA9F585545CF66A68701DE8A /* [CP] Check Pods Manifest.lock */,
 				492C7E281E266D9300B903C4 /* Sources */,
 				492C7E291E266D9300B903C4 /* Frameworks */,
 				492C7E2A1E266D9300B903C4 /* Resources */,
+				89EDA6A8633A3786C5C69828 /* [CP] Embed Pods Frameworks */,
+				E088E699F2F646912BE4989F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 492C7E461E266D9300B903C4 /* Build configuration list for PBXNativeTarget "NewsReaderUITests" */;
 			buildPhases = (
+				7198C3C8EC29252C10D9C1A9 /* [CP] Check Pods Manifest.lock */,
 				492C7E331E266D9300B903C4 /* Sources */,
 				492C7E341E266D9300B903C4 /* Frameworks */,
 				492C7E351E266D9300B903C4 /* Resources */,
+				9E33B8D6E3ABF6C07F473BD7 /* [CP] Embed Pods Frameworks */,
+				4D4443BF201C80DAF03722FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +311,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07C19E0E947C8C586CEDBEF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1BBE5400FF572A7B12EEE696 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsReader/Pods-NewsReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D4443BF201C80DAF03722FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsReaderUITests/Pods-NewsReaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7198C3C8EC29252C10D9C1A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89EDA6A8633A3786C5C69828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsReaderTests/Pods-NewsReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E33B8D6E3ABF6C07F473BD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsReaderUITests/Pods-NewsReaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA9F585545CF66A68701DE8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DABC9CA1B7B7FAB71A995B33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsReader/Pods-NewsReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E088E699F2F646912BE4989F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsReaderTests/Pods-NewsReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		492C7E111E266D9300B903C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				492C7E211E266D9300B903C4 /* NewsReader.xcdatamodeld in Sources */,
+				492C7E4A1E26703A00B903C4 /* MyTableViewCell.swift in Sources */,
 				492C7E1B1E266D9300B903C4 /* ViewController.swift in Sources */,
 				492C7E191E266D9300B903C4 /* AppDelegate.swift in Sources */,
 			);
@@ -273,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				492C7E311E266D9300B903C4 /* NewsReaderTests.swift in Sources */,
+				492C7E4B1E26703A00B903C4 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				492C7E3C1E266D9300B903C4 /* NewsReaderUITests.swift in Sources */,
+				492C7E4C1E26703A00B903C4 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +609,7 @@
 		};
 		492C7E411E266D9300B903C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C846D10E3D15852EAB1F7DFB /* Pods-NewsReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewsReader/Info.plist;
@@ -426,6 +622,7 @@
 		};
 		492C7E421E266D9300B903C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0FC2D8CF83D599BF343A0D /* Pods-NewsReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NewsReader/Info.plist;
@@ -438,6 +635,7 @@
 		};
 		492C7E441E266D9300B903C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F316E4D7C6BCB8F8D43386 /* Pods-NewsReaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +650,7 @@
 		};
 		492C7E451E266D9300B903C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9966CC9B9A0344AEAD2F79 /* Pods-NewsReaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +665,7 @@
 		};
 		492C7E471E266D9300B903C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B450D6BF5E2A5C8F2C0F952 /* Pods-NewsReaderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = NewsReaderUITests/Info.plist;
@@ -479,6 +679,7 @@
 		};
 		492C7E481E266D9300B903C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76994EE4ED777EA0434C80EF /* Pods-NewsReaderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = NewsReaderUITests/Info.plist;
@@ -509,6 +710,7 @@
 				492C7E421E266D9300B903C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		492C7E431E266D9300B903C4 /* Build configuration list for PBXNativeTarget "NewsReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +719,7 @@
 				492C7E451E266D9300B903C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		492C7E461E266D9300B903C4 /* Build configuration list for PBXNativeTarget "NewsReaderUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +728,7 @@
 				492C7E481E266D9300B903C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
